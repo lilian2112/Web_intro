@@ -9,7 +9,9 @@ get '/secret' do
 end
 
 get '/cat' do
-  'this is a cat'
+  '<div style="border: 2px dashed red">
+    <img src="http://bit.ly/1eze8aE">
+  </div>'
 end
 
 get '/pig' do
